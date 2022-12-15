@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+/* GLOBAL RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  background: none;
+}
+
+/* VARIABLES */
+
+:root {
+  --white: hsl(0, 0%, 100%);
+  --light-gray: hsl(212, 45%, 89%);
+  --grayish-blue: hsl(220, 15%, 55%);
+  --dark-blue: hsl(218, 44%, 22%);
+  --radius: 15px;
+  --font-size-paragraph: 1.5rem;
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+}
+
+/* HELPER CLASSES */
+
+.radius {
+  border-radius: var(--radius);
+}
+
+.mb {
+  margin-bottom: 2rem;
+}
+
+.plr {
+  padding: 0 1rem;
+}
+
+/* QR-SECTION */
+
+.qr-section {
+  max-width: 144rem;
+  margin: 0 auto;
+  background-color: var(--light-gray);
+  padding: 10rem;
+}
+
+/* QR-SECTION-CARD */
+
+.qr-section-card {
+  width: 30rem;
+  margin: 0 auto 10rem auto;
+  padding: 1.5rem;
+  background-color: var(--white);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* QR-SECTION-CARD-IMAGE */
+
+.qr-section-card-image {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* QR-SECTION-CARD-HEADER */
+
+.qr-section-card-header {
+  font-size: 2rem;
+  font-weight: var(--font-weight-bold);
+  color: var(--dark-blue);
+  text-align: center;
+  line-height: 1.3;
+}
+
+/* QR-SECTION-CARD-DESCRIPTION */
+
+.qr-section-card-description {
+  font-size: var(--font-size-paragraph);
+  text-align: center;
+  color: var(--grayish-blue);
+  line-height: 1.2;
+  font-weight: var(--font-weight-regular);
+}
+
+/* QR-SECTION-FOOTER */
+
+.attribution {
+  font-size: 1.3rem;
+  font-weight: var(--font-weight-regular);
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* MEDIA QUERY */
+
+@media (max-width: 23.5em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .qr-section {
+    padding: 2.5rem 0;
+  }
+
+  .qr-section-card {
+    margin-bottom: 3rem;
+  }
+}
