@@ -135,17 +135,3 @@ button {
     margin-bottom: 3rem;
   }
 }
-
-@media (max-width: 23.5em) {
-  html {
-    font-size: 56.25%;
-  }
-
-  .qr-section {
-    padding: 2.5rem 0;
-  }
-
-  .qr-section-card {
-    margin-bottom: 3rem;
-  }
-}
