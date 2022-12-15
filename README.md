@@ -5,4 +5,4 @@
 ## Welcome! 👋
 
 This is my solution for qr code project on Frontend Mentor.
-[Live preview](https://andreja011.github.io/qr-code-component/) 👈
+[Live preview]() 👈
