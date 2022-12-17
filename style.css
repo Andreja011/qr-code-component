@@ -16,6 +16,7 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
+  background-color: var(--light-gray);
 }
 
 ol,
@@ -63,7 +64,6 @@ button {
 .qr-section {
   max-width: 144rem;
   margin: 0 auto;
-  background-color: var(--light-gray);
   padding: 10rem;
 }
 
